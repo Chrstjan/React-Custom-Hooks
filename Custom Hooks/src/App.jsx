@@ -8,6 +8,7 @@ import "./App.scss";
 function App() {
   const { data } = useFetch('https://dummyjson.com/recipes/1');
   const { images } = useImages();
+  // const { pageTitle } = useTitle();
 
   useEffect(() => {
   }, []);

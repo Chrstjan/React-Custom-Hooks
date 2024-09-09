@@ -10,10 +10,5 @@ export const useTitle = () => {
         console.log(location);
     }, [location]);
 
-    // useEffect(() => {
-    //     setPageTitle(location);
-    //     console.log(pageTitle);
-    // }, [])
-
     return { pageTitle }
 }
